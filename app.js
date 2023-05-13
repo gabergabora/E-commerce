@@ -9,7 +9,7 @@ const errorHandler = require('./build/error-handler')
 const ejs = require('ejs');
 const bodyParser = require('body-parser');
 const session = require('express-session');
-
+                                              
 //Configuring the enviroments file and turning it to constant
 require('dotenv/config');
 const CS = process.env.CONNECTION_STRING;
